@@ -211,3 +211,27 @@ int maxSubArray(vector<int>& nums) {
 </div>
 
 <br>
+<!-- ───────────────────────── 07 · GITHUB ACTIVITY ───────────────────────── -->
+
+<img src="assets/section-stats.svg" alt="Section 07 — GitHub Activity" width="100%">
+
+<div align="center">
+
+<a href="https://github.com/RituVerse?tab=repositories">
+  <img src="https://github-readme-stats.vercel.app/api?username=RituVerse&show_icons=true&hide_border=true&hide_rank=true&include_all_commits=true&bg_color=0b1220&title_color=22d3ee&icon_color=8b5cf6&text_color=cbd5e1&card_width=420" alt="RituVerse GitHub statistics card" height="165">
+</a>
+<a href="https://github.com/RituVerse?tab=repositories">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RituVerse&layout=compact&hide_border=true&exclude_repo=RituVerse&langs_count=6&bg_color=0b1220&title_color=22d3ee&text_color=cbd5e1&card_width=420" alt="Most used languages across RituVerse repositories" height="165">
+</a>
+
+<br>
+
+<a href="https://github.com/RituVerse">
+  <img src="https://streak-stats.demolab.com?user=RituVerse&hide_border=true&background=0b1220&ring=22d3ee&fire=8b5cf6&currStreakNum=e2e8f0&sideNums=e2e8f0&currStreakLabel=22d3ee&sideLabels=94a3b8&dates=64748b&stroke=1e293b" alt="RituVerse GitHub contribution streak" height="165">
+</a>
+
+<sub>Live data via <a href="https://github.com/anuraghazra/github-readme-stats">github-readme-stats</a> and <a href="https://github.com/DenverCoder1/github-readme-streak-stats">streak-stats</a>. Early days — the graph grows with every build.</sub>
+
+</div>
+
+<br>
