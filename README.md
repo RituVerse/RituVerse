@@ -119,3 +119,14 @@ status:     open to collaborations
 </div>
 
 <br>
+<!-- ───────────────────────── 04 · ACHIEVEMENTS ───────────────────────── -->
+
+<img src="assets/section-achievements.svg" alt="Section 04 — Achievements" width="100%">
+
+<div align="center">
+
+<img src="assets/achievements.svg" alt="Achievements timeline. AI Web Forge Hackathon — secured 3rd rank with the team. Smart India Hackathon 2026, Team Optimus-X — selected for the SIH internal round; contributed to the technology-based solution, project documentation, design, technical presentation and the feasibility and impact pitch. GirlScript Summer of Code — participant, gained open-source experience with Git and GitHub. National Service Scheme — team leader at an NSS event." width="100%">
+
+</div>
+
+<br>
