@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="210" viewBox="0 0 440 210" role="img" aria-label="Project: Netflix Clone">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#070b18"/>
+    </linearGradient>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0.35"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#8b5cf6" stroke-opacity="0.07"/>
+    </pattern>
+    <clipPath id="clip"><rect width="440" height="210" rx="16"/></clipPath>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="440" height="210" fill="url(#panel)"/>
+    <rect width="440" height="210" fill="url(#grid)"/>
+    <ellipse cx="440" cy="0" rx="242" ry="189" fill="url(#halo)"/>
+    <rect x="0" y="0" width="440" height="2" fill="#8b5cf6" fill-opacity="0.9"/>
+  </g>
+  <rect x="0.5" y="0.5" width="439" height="209" rx="16" fill="none" stroke="url(#border)"/>
+  <text x="26" y="36" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="12" letter-spacing="3" fill="#8b5cf6">PROJECT 03</text>
+  <text x="414" y="36" text-anchor="end" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11.5" fill="#64748b">RituVerse/Netflix-Clone</text>
+  <text x="26" y="72" font-family="'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="26" font-weight="800" fill="#f1f5f9">Netflix Clone</text>
+  <text x="26" y="102" font-family="'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="13.5" fill="#cbd5e1">A responsive Netflix India landing page recreated in</text>
+  <text x="26" y="122" font-family="'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="13.5" fill="#cbd5e1">pure HTML &amp; CSS — focused on layout, visual hierarchy,</text>
+  <text x="26" y="142" font-family="'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="13.5" fill="#cbd5e1">spacing and responsive behaviour across screen sizes.</text>
+  <rect x="26" y="160" width="46" height="24" rx="7" fill="#8b5cf6" fill-opacity="0.08" stroke="#8b5cf6" stroke-opacity="0.4"/>
+  <text x="49.0" y="176" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11" fill="#e2e8f0">HTML</text>
+  <rect x="80" y="160" width="39" height="24" rx="7" fill="#8b5cf6" fill-opacity="0.08" stroke="#8b5cf6" stroke-opacity="0.4"/>
+  <text x="99.5" y="176" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11" fill="#e2e8f0">CSS</text>
+  <rect x="127" y="160" width="132" height="24" rx="7" fill="#8b5cf6" fill-opacity="0.08" stroke="#8b5cf6" stroke-opacity="0.4"/>
+  <text x="193.0" y="176" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11" fill="#e2e8f0">Responsive Layout</text>
+  <circle cx="410" cy="56" r="3" fill="#8b5cf6" filter="url(#glow)"><animate attributeName="opacity" values="1;0.3;1" dur="2.4s" repeatCount="indefinite"/></circle>
+  <text x="400" y="60" text-anchor="end" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="11" fill="#94a3b8">Pure HTML &amp; CSS</text>
+</svg>

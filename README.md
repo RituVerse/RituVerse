@@ -82,3 +82,40 @@ status:     open to collaborations
 </div>
 
 <br>
+<!-- ───────────────────────── 03 · PROJECTS ───────────────────────── -->
+
+<img src="assets/section-projects.svg" alt="Section 03 — Project Universe" width="100%">
+
+<div align="center">
+
+<a href="https://github.com/RituVerse/my-portfolio">
+  <img src="assets/project-portfolio.svg" alt="Project 01 — Personal Portfolio: a dark futuristic portfolio built from scratch with HTML, CSS and vanilla JavaScript. Particle canvas background, typing animation, scroll-reveal, 3D tilt cards. Live on GitHub Pages." width="100%">
+</a>
+
+<table>
+<tr>
+<td width="50%">
+<a href="https://github.com/RituVerse/weather-app">
+  <img src="assets/project-weather.svg" alt="Project 02 — Weather App: search any city and get live temperature, conditions and an icon from the OpenWeatherMap API. HTML, CSS, JavaScript, Fetch API." width="100%">
+</a>
+</td>
+<td width="50%">
+<a href="https://github.com/RituVerse/Netflix-Clone">
+  <img src="assets/project-netflix.svg" alt="Project 03 — Netflix Clone: a responsive Netflix India landing page recreated in pure HTML and CSS, focused on layout, visual hierarchy and responsive behaviour." width="100%">
+</a>
+</td>
+</tr>
+</table>
+
+<p>
+  <a href="https://rituverse.github.io/my-portfolio/"><img src="https://img.shields.io/badge/Portfolio-Live%20Demo-0b1220?style=for-the-badge&logo=githubpages&logoColor=22d3ee" alt="Open the live portfolio demo"></a>
+  <a href="https://github.com/RituVerse/my-portfolio"><img src="https://img.shields.io/badge/Portfolio-Source-0b1220?style=for-the-badge&logo=github&logoColor=e2e8f0" alt="Portfolio source code"></a>
+  <a href="https://github.com/RituVerse/weather-app"><img src="https://img.shields.io/badge/Weather%20App-Source-0b1220?style=for-the-badge&logo=github&logoColor=e2e8f0" alt="Weather App source code"></a>
+  <a href="https://github.com/RituVerse/Netflix-Clone"><img src="https://img.shields.io/badge/Netflix%20Clone-Source-0b1220?style=for-the-badge&logo=github&logoColor=e2e8f0" alt="Netflix Clone source code"></a>
+</p>
+
+<sub>More projects are on the way — the universe is still expanding. See all repositories at <a href="https://github.com/RituVerse?tab=repositories">github.com/RituVerse</a>.</sub>
+
+</div>
+
+<br>
