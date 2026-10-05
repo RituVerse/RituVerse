@@ -130,3 +130,84 @@ status:     open to collaborations
 </div>
 
 <br>
+<!-- ───────────────────────── 05 · DSA JOURNEY ───────────────────────── -->
+
+<img src="assets/section-dsa.svg" alt="Section 05 — DSA Journey" width="100%">
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+Building strong fundamentals in **C++**, one pattern at a time — with regular practice on **LeetCode**.
+
+**Topics covered so far**
+
+| Area | Patterns & Algorithms |
+|:--|:--|
+| Arrays | Traversal, prefix logic, in-place tricks |
+| Searching | Linear Search · **Binary Search** |
+| Classic algorithms | **Kadane's Algorithm** · **Moore's Voting Algorithm** |
+| Techniques | **Two Pointer Technique** · **Binary Exponentiation** |
+
+**Up next:** Strings · Recursion · Sorting · Hashing
+
+</td>
+<td width="50%" valign="top">
+
+```cpp
+// Kadane's Algorithm — maximum subarray sum
+// O(n) time · O(1) space
+int maxSubArray(vector<int>& nums) {
+    int best = nums[0];
+    int curr = nums[0];
+    for (int i = 1; i < nums.size(); ++i) {
+        curr = max(nums[i], curr + nums[i]);
+        best = max(best, curr);
+    }
+    return best;
+}
+```
+
+<div align="center">
+<a href="https://leetcode.com/"><img src="https://img.shields.io/badge/Practicing%20on-LeetCode-0b1220?style=flat-square&logo=leetcode&logoColor=f59e0b" alt="Practicing regularly on LeetCode"></a>
+<img src="https://img.shields.io/badge/Language-C%2B%2B-0b1220?style=flat-square&logo=cplusplus&logoColor=38bdf8" alt="Language: C++">
+</div>
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<!-- ───────────────────────── 06 · OPEN SOURCE ───────────────────────── -->
+
+<img src="assets/section-opensource.svg" alt="Section 06 — Open Source" width="100%">
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="33%" valign="top">
+<br>
+<strong>GirlScript Summer of Code</strong><br>
+<sub>Learned the real-world open-source loop: fork → branch → commit → pull request → review.</sub>
+<br><br>
+</td>
+<td align="center" width="33%" valign="top">
+<br>
+<strong>Git &amp; GitHub</strong><br>
+<sub>Comfortable with branching, meaningful commits, PRs, issues and keeping a clean history.</sub>
+<br><br>
+</td>
+<td align="center" width="33%" valign="top">
+<br>
+<strong>Open to collaborate</strong><br>
+<sub>Front-end, documentation and beginner-friendly issues — if you're building something, say hi.</sub>
+<br><br>
+</td>
+</tr>
+</table>
+
+</div>
+
+<br>
