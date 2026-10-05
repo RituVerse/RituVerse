@@ -235,3 +235,32 @@ int maxSubArray(vector<int>& nums) {
 </div>
 
 <br>
+<!-- ───────────────────────── 08 · LET'S CONNECT ───────────────────────── -->
+
+<img src="assets/section-connect.svg" alt="Section 08 — Let's Connect" width="100%">
+
+<div align="center">
+
+Whether it's a hackathon team, an open-source issue, a front-end idea or just a hello — my inbox is open.
+
+<br>
+
+<a href="https://linkedin.com/in/ritu-yadav-71b887382">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect%20with%20Ritu-0b1220?style=for-the-badge&logo=linkedin&logoColor=38bdf8" alt="Connect on LinkedIn">
+</a>
+<a href="mailto:ritu.yadav959743@gmail.com">
+  <img src="https://img.shields.io/badge/Email-ritu.yadav959743%40gmail.com-0b1220?style=for-the-badge&logo=gmail&logoColor=8b5cf6" alt="Send an email to ritu.yadav959743@gmail.com">
+</a>
+<a href="https://github.com/RituVerse">
+  <img src="https://img.shields.io/badge/GitHub-Follow%20%40RituVerse-0b1220?style=for-the-badge&logo=github&logoColor=22d3ee" alt="Follow RituVerse on GitHub">
+</a>
+
+<br><br>
+
+<sub>Lucknow, Uttar Pradesh, India &nbsp;·&nbsp; Usually responds within a day or two.</sub>
+
+<br><br>
+
+<img src="assets/footer.svg" alt="while (alive) { learn(); build(); grow(); } — RituVerse, The Girl Who Builds" width="100%">
+
+</div>
