@@ -69,3 +69,16 @@ status:     open to collaborations
 </table>
 
 <br>
+<!-- ───────────────────────── 02 · TECH STACK ───────────────────────── -->
+
+<img src="assets/section-stack.svg" alt="Section 02 — Tech Stack" width="100%">
+
+<div align="center">
+
+<img src="assets/stack.svg" alt="Tech stack. Languages: C++, JavaScript, HTML5, CSS3. Core: Data Structures and Algorithms, Problem Solving, ECE Fundamentals. Web: Responsive Web Design, Fetch API, CSS Grid and Flexbox, DOM and Events, CSS Animations. Tools: Git, GitHub, VS Code, Canva, Vercel. Other: UI-focused Design, Technical Presentations, Project Documentation, Team Leadership." width="100%">
+
+<sub>Zero frameworks so far — everything I've shipped is pure HTML, CSS and vanilla JavaScript, by choice, to learn the fundamentals first.</sub>
+
+</div>
+
+<br>

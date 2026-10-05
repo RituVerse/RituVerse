@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="394" viewBox="0 0 900 394" role="img" aria-label="Tech stack: languages, core skills, web, tools and other skills">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#070b18"/>
+    </linearGradient>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0.6"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#22d3ee" stroke-opacity="0.06"/>
+    </pattern>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="0.5" y="0.5" width="899" height="393" rx="16" fill="url(#panel)" stroke="url(#border)"/>
+  <rect x="0.5" y="0.5" width="899" height="393" rx="16" fill="url(#grid)"/>
+  <circle cx="34" cy="53.0" r="3" fill="#22d3ee" filter="url(#glow)"/>
+  <text x="46" y="58.0" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="12" letter-spacing="3" fill="#22d3ee">LANGUAGES</text>
+  <rect x="148" y="38" width="48" height="30" rx="8" fill="#22d3ee" fill-opacity="0.08" stroke="#22d3ee" stroke-opacity="0.45"/>
+  <text x="172.0" y="57.5" text-anchor="middle" font-family="'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">C++</text>
+  <rect x="206" y="38" width="100" height="30" rx="8" fill="#22d3ee" fill-opacity="0.08" stroke="#22d3ee" stroke-opacity="0.45"/>
+  <text x="256.0" y="57.5" text-anchor="middle" font-family="'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">JavaScript</text>
+  <rect x="316" y="38" width="63" height="30" rx="8" fill="#22d3ee" fill-opacity="0.08" stroke="#22d3ee" stroke-opacity="0.45"/>
+  <text x="347.5" y="57.5" text-anchor="middle" font-family="'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">HTML5</text>
+  <rect x="389" y="38" width="55" height="30" rx="8" fill="#22d3ee" fill-opacity="0.08" stroke="#22d3ee" stroke-opacity="0.45"/>
+  <text x="416.5" y="57.5" text-anchor="middle" font-family="'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">CSS3</text>
+  <circle cx="34" cy="111.0" r="3" fill="#8b5cf6" filter="url(#glow)"/>
+  <text x="46" y="116.0" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="12" letter-spacing="3" fill="#8b5cf6">CORE</text>
+  <rect x="148" y="96" width="233" height="30" rx="8" fill="#8b5cf6" fill-opacity="0.08" stroke="#8b5cf6" stroke-opacity="0.45"/>
+  <text x="264.5" y="115.5" text-anchor="middle" font-family="'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">Data Structures &amp; Algorithms</text>
+  <rect x="391" y="96" width="137" height="30" rx="8" fill="#8b5cf6" fill-opacity="0.08" stroke="#8b5cf6" stroke-opacity="0.45"/>
+  <text x="459.5" y="115.5" text-anchor="middle" font-family="'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">Problem Solving</text>
+  <rect x="538" y="96" width="144" height="30" rx="8" fill="#8b5cf6" fill-opacity="0.08" stroke="#8b5cf6" stroke-opacity="0.45"/>
+  <text x="610.0" y="115.5" text-anchor="middle" font-family="'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">ECE Fundamentals</text>
+  <circle cx="34" cy="169.0" r="3" fill="#38bdf8" filter="url(#glow)"/>
+  <text x="46" y="174.0" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="12" letter-spacing="3" fill="#38bdf8">WEB</text>
+  <rect x="148" y="154" width="181" height="30" rx="8" fill="#38bdf8" fill-opacity="0.08" stroke="#38bdf8" stroke-opacity="0.45"/>
+  <text x="238.5" y="173.5" text-anchor="middle" font-family="'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">Responsive Web Design</text>
+  <rect x="339" y="154" width="92" height="30" rx="8" fill="#38bdf8" fill-opacity="0.08" stroke="#38bdf8" stroke-opacity="0.45"/>
+  <text x="385.0" y="173.5" text-anchor="middle" font-family="'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">Fetch API</text>
+  <rect x="441" y="154" width="159" height="30" rx="8" fill="#38bdf8" fill-opacity="0.08" stroke="#38bdf8" stroke-opacity="0.45"/>
+  <text x="520.5" y="173.5" text-anchor="middle" font-family="'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">CSS Grid &amp; Flexbox</text>
+  <rect x="610" y="154" width="114" height="30" rx="8" fill="#38bdf8" fill-opacity="0.08" stroke="#38bdf8" stroke-opacity="0.45"/>
+  <text x="667.0" y="173.5" text-anchor="middle" font-family="'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">DOM &amp; Events</text>
+  <rect x="148" y="198" width="129" height="30" rx="8" fill="#38bdf8" fill-opacity="0.08" stroke="#38bdf8" stroke-opacity="0.45"/>
+  <text x="212.5" y="217.5" text-anchor="middle" font-family="'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">CSS Animations</text>
+  <circle cx="34" cy="271.0" r="3" fill="#a78bfa" filter="url(#glow)"/>
+  <text x="46" y="276.0" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="12" letter-spacing="3" fill="#a78bfa">TOOLS</text>
+  <rect x="148" y="256" width="48" height="30" rx="8" fill="#a78bfa" fill-opacity="0.08" stroke="#a78bfa" stroke-opacity="0.45"/>
+  <text x="172.0" y="275.5" text-anchor="middle" font-family="'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">Git</text>
+  <rect x="206" y="256" width="70" height="30" rx="8" fill="#a78bfa" fill-opacity="0.08" stroke="#a78bfa" stroke-opacity="0.45"/>
+  <text x="241.0" y="275.5" text-anchor="middle" font-family="'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">GitHub</text>
+  <rect x="286" y="256" width="77" height="30" rx="8" fill="#a78bfa" fill-opacity="0.08" stroke="#a78bfa" stroke-opacity="0.45"/>
+  <text x="324.5" y="275.5" text-anchor="middle" font-family="'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">VS Code</text>
+  <rect x="373" y="256" width="63" height="30" rx="8" fill="#a78bfa" fill-opacity="0.08" stroke="#a78bfa" stroke-opacity="0.45"/>
+  <text x="404.5" y="275.5" text-anchor="middle" font-family="'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">Canva</text>
+  <rect x="446" y="256" width="70" height="30" rx="8" fill="#a78bfa" fill-opacity="0.08" stroke="#a78bfa" stroke-opacity="0.45"/>
+  <text x="481.0" y="275.5" text-anchor="middle" font-family="'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">Vercel</text>
+  <circle cx="34" cy="329.0" r="3" fill="#67e8f9" filter="url(#glow)"/>
+  <text x="46" y="334.0" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="12" letter-spacing="3" fill="#67e8f9">OTHER</text>
+  <rect x="148" y="314" width="151" height="30" rx="8" fill="#67e8f9" fill-opacity="0.08" stroke="#67e8f9" stroke-opacity="0.45"/>
+  <text x="223.5" y="333.5" text-anchor="middle" font-family="'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">UI-focused Design</text>
+  <rect x="309" y="314" width="196" height="30" rx="8" fill="#67e8f9" fill-opacity="0.08" stroke="#67e8f9" stroke-opacity="0.45"/>
+  <text x="407.0" y="333.5" text-anchor="middle" font-family="'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">Technical Presentations</text>
+  <rect x="515" y="314" width="181" height="30" rx="8" fill="#67e8f9" fill-opacity="0.08" stroke="#67e8f9" stroke-opacity="0.45"/>
+  <text x="605.5" y="333.5" text-anchor="middle" font-family="'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">Project Documentation</text>
+  <rect x="706" y="314" width="137" height="30" rx="8" fill="#67e8f9" fill-opacity="0.08" stroke="#67e8f9" stroke-opacity="0.45"/>
+  <text x="774.5" y="333.5" text-anchor="middle" font-family="'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">Team Leadership</text>
+</svg>
