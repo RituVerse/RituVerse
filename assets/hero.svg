@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">RituVerse — Ritu Yadav, The Girl Who Builds</title>
+  <desc id="desc">Dark futuristic banner with a star field, perspective grid, and glowing gradient title reading RITUVERSE, tagline The Girl Who Builds.</desc>
+  <defs>
+    <!-- Background -->
+    <radialGradient id="bg" cx="50%" cy="35%" r="80%">
+      <stop offset="0%" stop-color="#0f1b3a"/>
+      <stop offset="55%" stop-color="#070b18"/>
+      <stop offset="100%" stop-color="#03050c"/>
+    </radialGradient>
+    <!-- Title gradient (animated sweep) -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee">
+        <animate attributeName="stop-color" values="#22d3ee;#8b5cf6;#38bdf8;#22d3ee" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#8b5cf6">
+        <animate attributeName="stop-color" values="#8b5cf6;#38bdf8;#22d3ee;#8b5cf6" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#38bdf8">
+        <animate attributeName="stop-color" values="#38bdf8;#22d3ee;#8b5cf6;#38bdf8" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </linearGradient>
+    <!-- Nebula glows -->
+    <radialGradient id="glowCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowViolet" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Soft text glow -->
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <!-- Grid pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#22d3ee" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="gridFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="60%" stop-color="#fff" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="1"/>
+    </linearGradient>
+    <mask id="gridMask"><rect width="1200" height="420" fill="url(#gridFade)"/></mask>
+    <clipPath id="frame"><rect width="1200" height="420" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="420" fill="url(#bg)"/>
+
+    <!-- Nebula -->
+    <ellipse cx="260" cy="300" rx="420" ry="220" fill="url(#glowViolet)">
+      <animate attributeName="cx" values="260;320;260" dur="14s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="940" cy="120" rx="420" ry="220" fill="url(#glowCyan)">
+      <animate attributeName="cx" values="940;880;940" dur="16s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- Perspective grid floor -->
+    <g mask="url(#gridMask)" transform="translate(0,120)">
+      <rect width="1200" height="300" fill="url(#grid)"/>
+    </g>
+
+    <!-- Star field -->
+    <g fill="#e2e8f0">
+      <circle cx="90" cy="60" r="1.4"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.1s" repeatCount="indefinite"/></circle>
+      <circle cx="210" cy="140" r="1"><animate attributeName="opacity" values="1;0.2;1" dur="4.3s" repeatCount="indefinite"/></circle>
+      <circle cx="330" cy="40" r="1.2"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.7s" repeatCount="indefinite"/></circle>
+      <circle cx="470" cy="90" r="0.9"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="3.9s" repeatCount="indefinite"/></circle>
+      <circle cx="560" cy="30" r="1.5"><animate attributeName="opacity" values="0.2;1;0.2" dur="5.2s" repeatCount="indefinite"/></circle>
+      <circle cx="700" cy="70" r="1"><animate attributeName="opacity" values="1;0.3;1" dur="3.4s" repeatCount="indefinite"/></circle>
+      <circle cx="820" cy="30" r="1.3"><animate attributeName="opacity" values="0.3;1;0.3" dur="4.6s" repeatCount="indefinite"/></circle>
+      <circle cx="960" cy="90" r="1"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.9s" repeatCount="indefinite"/></circle>
+      <circle cx="1080" cy="50" r="1.6"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.7s" repeatCount="indefinite"/></circle>
+      <circle cx="1150" cy="150" r="1"><animate attributeName="opacity" values="1;0.3;1" dur="4.1s" repeatCount="indefinite"/></circle>
+      <circle cx="40" cy="220" r="1.1"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.3s" repeatCount="indefinite"/></circle>
+      <circle cx="150" cy="330" r="0.9"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="5s" repeatCount="indefinite"/></circle>
+      <circle cx="1040" cy="300" r="1.2"><animate attributeName="opacity" values="0.2;1;0.2" dur="4.4s" repeatCount="indefinite"/></circle>
+      <circle cx="1170" cy="380" r="1"><animate attributeName="opacity" values="1;0.3;1" dur="3.6s" repeatCount="indefinite"/></circle>
+      <circle cx="620" cy="390" r="0.9"><animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.8s" repeatCount="indefinite"/></circle>
+      <circle cx="390" cy="370" r="1.1"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="4.8s" repeatCount="indefinite"/></circle>
+      <circle cx="880" cy="360" r="1"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.2s" repeatCount="indefinite"/></circle>
+      <circle cx="250" cy="250" r="0.8"><animate attributeName="opacity" values="0.6;0.1;0.6" dur="3.8s" repeatCount="indefinite"/></circle>
+      <circle cx="760" cy="250" r="0.8"><animate attributeName="opacity" values="0.1;0.7;0.1" dur="4.2s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <!-- Shooting star -->
+    <g opacity="0.9">
+      <line x1="0" y1="0" x2="-90" y2="45" stroke="url(#lineGrad)" stroke-width="1.5" stroke-linecap="round">
+        <animateTransform attributeName="transform" type="translate" values="1250,-20;700,260" dur="2.4s" begin="1s;shoot.end+6s" id="shoot" fill="freeze"/>
+        <animate attributeName="opacity" values="0;1;1;0" dur="2.4s" begin="1s;shoot.end+6s" fill="freeze"/>
+      </line>
+    </g>
+
+    <!-- Orbit ring (decor) -->
+    <g transform="translate(600,215)" fill="none">
+      <ellipse rx="380" ry="112" stroke="#8b5cf6" stroke-opacity="0.18" stroke-width="1" stroke-dasharray="4 10">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="90s" repeatCount="indefinite"/>
+      </ellipse>
+      <circle r="3.5" fill="#22d3ee" filter="url(#softGlow)">
+        <animateMotion dur="18s" repeatCount="indefinite" path="M -380 0 A 380 112 0 1 1 380 0 A 380 112 0 1 1 -380 0"/>
+      </circle>
+    </g>
+
+    <!-- Eyebrow -->
+    <text x="600" y="128" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,monospace" font-size="15" letter-spacing="6" fill="#67e8f9" fill-opacity="0.85">WELCOME TO</text>
+
+    <!-- Title -->
+    <text x="600" y="218" text-anchor="middle" font-family="'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-weight="800" font-size="92" letter-spacing="14" fill="url(#titleGrad)" filter="url(#glow)">RITUVERSE</text>
+
+    <!-- Divider -->
+    <rect x="300" y="244" width="600" height="1.5" fill="url(#lineGrad)"/>
+
+    <!-- Tagline with typing reveal -->
+    <g>
+      <clipPath id="typeClip">
+        <rect x="430" y="256" width="0" height="40">
+          <animate attributeName="width" from="0" to="340" dur="2.4s" begin="0.8s" fill="freeze" calcMode="discrete" keyTimes="0;0.05;0.1;0.15;0.2;0.25;0.3;0.35;0.4;0.45;0.5;0.55;0.6;0.65;0.7;0.75;0.8;0.85;0.9;0.95;1" values="0;17;34;51;68;85;102;119;136;153;170;187;204;221;238;255;272;289;306;323;340"/>
+        </rect>
+      </clipPath>
+      <text x="600" y="285" text-anchor="middle" clip-path="url(#typeClip)" font-family="'JetBrains Mono','Fira Code','SFMono-Regular',Consolas,monospace" font-size="24" fill="#e2e8f0" letter-spacing="2">The Girl Who Builds</text>
+      <!-- Cursor -->
+      <rect x="432" y="266" width="2.5" height="24" fill="#22d3ee">
+        <animate attributeName="x" from="432" to="772" dur="2.4s" begin="0.8s" fill="freeze" calcMode="discrete" keyTimes="0;0.05;0.1;0.15;0.2;0.25;0.3;0.35;0.4;0.45;0.5;0.55;0.6;0.65;0.7;0.75;0.8;0.85;0.9;0.95;1" values="432;449;466;483;500;517;534;551;568;585;602;619;636;653;670;687;704;721;738;755;772"/>
+        <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- Supporting line -->
+    <text x="600" y="330" text-anchor="middle" font-family="'Segoe UI',Inter,Roboto,Helvetica,Arial,sans-serif" font-size="15" letter-spacing="1.5" fill="#94a3b8">
+      ECE STUDENT
+      <tspan fill="#8b5cf6" dx="10" dy="0">•</tspan>
+      <tspan dx="10">WEB DEVELOPER</tspan>
+      <tspan fill="#8b5cf6" dx="10">•</tspan>
+      <tspan dx="10">PROBLEM SOLVER</tspan>
+      <tspan fill="#8b5cf6" dx="10">•</tspan>
+      <tspan dx="10">C++ &amp; DSA</tspan>
+    </text>
+
+    <!-- Corner brackets -->
+    <g stroke="#22d3ee" stroke-opacity="0.5" stroke-width="1.5" fill="none">
+      <path d="M 24 44 V 24 H 44"/>
+      <path d="M 1156 24 H 1176 V 44"/>
+      <path d="M 24 376 V 396 H 44"/>
+      <path d="M 1156 396 H 1176 V 376"/>
+    </g>
+    <text x="42" y="402" font-family="'JetBrains Mono','Fira Code',monospace" font-size="11" fill="#475569" letter-spacing="2">LUCKNOW · INDIA</text>
+    <text x="1158" y="402" text-anchor="end" font-family="'JetBrains Mono','Fira Code',monospace" font-size="11" fill="#475569" letter-spacing="2">github.com/RituVerse</text>
+  </g>
+
+  <!-- Frame border -->
+  <rect x="0.75" y="0.75" width="1198.5" height="418.5" rx="18" fill="none" stroke="#22d3ee" stroke-opacity="0.25"/>
+</svg>
